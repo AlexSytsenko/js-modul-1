@@ -1,0 +1,16 @@
+@mixin font($fs, $lh, $fw: 400) {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+@mixin flex($ds: flex, $ai: center, $jc: center) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin marginauto($mr: auto, $ml: auto) {
+  margin-right: $mr;
+  margin-left: $ml;
+}
